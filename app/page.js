@@ -13,7 +13,7 @@ export default function HomePage() {
       <Skills />
       <Projects />
       <Education />
-      <Contact />
+      <Contac />
     </div>
   );
 }
