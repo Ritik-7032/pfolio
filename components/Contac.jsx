@@ -64,7 +64,7 @@ const handleChange = (e) => {
    
       <form
         onSubmit={handleSubmit}
-        className="max-w-xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md"
+        className="max-w-xl mx-auto bg-gray-900 p-8 rounded-lg shadow-md"
       >
         <div className="mb-4">
           <input
