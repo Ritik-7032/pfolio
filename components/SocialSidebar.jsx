@@ -29,14 +29,14 @@ export default function SocialSidebar() {
   ];
 
   return (
-    <div className="fixed right-2 top-4/5 transform -translate-y-1/2 z-50 hidden sm:flex flex-col gap-3 bg-[#0a0a23] rounded-lg px-1 py-3 shadow-md">
+    <div className="fixed right-2 top-4/5 transform -translate-y-1/2 z-50 hidden sm:flex flex-col gap-3 bg-gray-900 rounded-lg px-1 py-3 shadow-md">
       {socialLinks.map((link, index) => (
         <a
           key={index}
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className={`text-xl ${link.color} hover:scale-110 transition-transform duration-200`}
+          className={`text-4xl ${link.color} hover:scale-110 transition-transform duration-200`}
         >
           {link.icon}
         </a>
