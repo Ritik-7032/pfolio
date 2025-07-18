@@ -30,12 +30,12 @@ const handleChange = (e) => {
   return (
     <section
       id="contact"
-      className="py-16 px-6 text-center dark:bg-gray-900 bg-gray-100 transition-colors duration-500"
+      className="py-16 px-6 text-center bg-gray-900  transition-colors duration-500"
     >
-      <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+      <h2 className="text-3xl font-bold mb-6 text-white">
         Contact Me
       </h2>
-      <p className="text-gray-600 dark:text-gray-400 mb-4">
+      <p className="text-gray-400 mb-4">
         Let's connect and work together!
       </p>
 
