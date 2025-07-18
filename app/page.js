@@ -5,7 +5,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contac from "@/components/Contac";
 import Education from "@/components/Education";
-
+import Footer from "@/components/ Footer";
 export default function HomePage() {
   return (
     <div className="bg-gray-900 text-white transition-colors duration-500">
@@ -14,6 +14,7 @@ export default function HomePage() {
       <Projects />
       <Education />
       <Contac />
+    < Footer />
     </div>
   );
 }
